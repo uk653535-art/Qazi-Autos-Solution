@@ -1,0 +1,8 @@
+{
+  "name": "qazi-autos-solution",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"const fs=require('fs'); fs.mkdirSync('public',{recursive:true}); fs.copyFileSync('index.html','public/index.html');\""
+  }
+}
